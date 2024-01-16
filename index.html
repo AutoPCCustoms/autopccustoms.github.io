@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" class="img-fluid">
+        <a href="#" class="logo">AutoPC</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#">Tips</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Welcome to AutoPC</h1>
+            <h3>A Bespoke PC Experience</h3>
+            <p>Over the past few years I have built numerous PCs of varying specifications and pride myself in selecting the very best parts, offered at a reasonable price. Every PC is tailored to the individual customer and great attention will be given to each build - it's my hobby!</p>
+            <div class="btn-box">
+                <a href="#">Get Started</a>
+                <a href="#">Build Archive</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bx-envelope'></i></a>
+            <a href="#"><i class='bx bx-phone' ></i></a>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <h2 class="heading">Build Archive</h2>
+        <div class="gallery-content">
+            <!--photos-->
+            <div id="george-group">
+            <div class="image-container" onclick="show_details('george')">
+                <img src="georgepc.png">
+                <div class="dropdown">
+                    <p>George's PC</p>
+                    <img onclick="show_details('george')" src="triangle.png">
+                </div>   
+            </div>
+            <div id="george-details" onclick="hide_details('george')">
+                <b>Specs</b>
+                <p>CPU: Ryzen 5 3600</p>
+                <p>Motherboard: MSI B450 Gaming Pro Carbon Wifi</p>
+                <p>GPU: Gigabyte RTX 3070 Vision OC</p>
+                <p>RAM: Corsair LPX 16GB 3600MHz</p>
+                <p>Case: LianLi O11D PCMR</p>
+                <p>PSU: Corsair CV650 Bronze</p>
+                <p>AIO: Corsair H150i Elite Capellix</p>
+                <p>Fans: Corsair QL120</p>
+            </div>  
+        </div>
+    </div>
+    <div id="evie-group">
+        <div class="image-container" onclick="show_details('evie')">
+            <img src="georgepc.png">
+            <div class="dropdown">
+                <p>Evie's PC</p>
+                <img onclick="show_details()" src="triangle.png">
+            </div>   
+        </div>
+        <div id="evie-details" onclick="hide_details('evie')">
+            <b>Specs</b>
+            <p>CPU: Ryzen 5 3600</p>
+            <p>Motherboard: MSI B450 Gaming Pro Carbon Wifi</p>
+            <p>GPU: Gigabyte RTX 3070 Vision OC</p>
+            <p>RAM: Corsair LPX 16GB 3600MHz</p>
+            <p>Case: LianLi O11D PCMR</p>
+            <p>PSU: Corsair CV650 Bronze</p>
+            <p>AIO: Corsair H150i Elite Capellix</p>
+            <p>Fans: Corsair QL120</p>
+        </div>  
+    </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
