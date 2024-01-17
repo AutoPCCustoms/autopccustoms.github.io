@@ -1,2 +1,2 @@
 git commit -a -m "message"
-git push -f origin master
+git push -f origin main
