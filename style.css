@@ -222,6 +222,14 @@ body {
     height: 80%; 
 }
 
+#joan-group {
+    position: absolute;
+    left: 59%;
+    top: 10%;
+    width: 17%;
+    height: 80%;
+}
+
 .image-container {
     background-color: #2b5dc9;
     position: absolute;
@@ -281,6 +289,21 @@ body {
 #evie-details p {
     color: #ededed;
 }
+
+#joan-details {
+    display: none;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    background-color: rgba(253, 167, 8, 0.578);
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+#joan-details p {
+    color: #ededed;
+}
+
 
 .gallery {
     background-color: #243e77;
